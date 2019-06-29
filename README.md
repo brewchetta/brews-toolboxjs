@@ -1,6 +1,6 @@
 # toolboxjs
 
-This little toolbox has reusable code for different projects. No, they aren't yet highly developed or efficient algorithms but I like them anyhow.
+This little toolbox has reusable code for different projects. No, they aren't yet highly developed or efficient algorithms but I like them anyhow. This is mostly for me to add code to other projects but it's obviously available for anyone to copy and use.
 
 ### numWord()
 
