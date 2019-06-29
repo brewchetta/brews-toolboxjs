@@ -4,10 +4,10 @@ This little toolbox has reusable code for different projects. No, they aren't ye
 
 ### numWord()
 
-This takes in a positive integer and spits out the corresponding word. For example: 
+This takes in a positive integer and spits out the corresponding word. For example:
 ```numWord(1) => "one"```
 
-### nthNumber()
+### nthNumWord()
 
-Similar to numWord(), nthNumber() takes in a positive integer and spits out the word in its nth form, for example: 
-```nthNumber(10) => "tenth"```
+Similar to numWord(), nthNumWord() takes in a positive integer and spits out the word in its nth form, for example:
+```nthNumWord(10) => "tenth"```
