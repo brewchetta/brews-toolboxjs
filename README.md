@@ -56,12 +56,18 @@ Many of these functions have been built to render error messages on the console 
 
 I've added this as an npm package just for the fun of it. It can be added to a project by running:
 
-```
-$ npm install brews-toolboxjs
-```
+`$ npm install brews-toolboxjs`
 
-Once added, import the project to your local file like so:
+Once added, import functions to your local file like so:
 
-```
-import {random, isALetter, sortAlphabetical} from 'brews-toolboxjs'
-```
+`import {random, isALetter, sortAlphabetical} from 'brews-toolboxjs'`
+
+You can also import the entire toolbox for use:
+
+`import toolbox from 'brews-toolboxjs'`
+
+`toolbox.isALetter("a") => true`
+
+### Version
+
+1.0.11
