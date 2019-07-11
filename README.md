@@ -8,27 +8,33 @@ Takes in a word or words and returns them capitalized. For example:
 
 `capitalizeWords("good morning") => Good Morning`
 
-### isALetter()
+###compareAlphabetical() / sortAlphabetical()
 
-A really simple one that returns true or false if the string is a single letter or not. For example:
+The compare function takes in two values and attempts to sort them alphabetically.
+
+`compareAlphabetical("alpha", "beta") => 1`
+`compareAlphabetical("beta", "alpha") => -1`
+`compareAlphabetical("beta", "beta") => 0`
+
+The sort function takes in an array and attempts to return a new alphabetized array. For example:
+
+`sortAlphabetical(["alpha", "gamma", "beta"])` => ["alpha", "beta", "gamma"]
+
+This sort function is non-destructive.
+
+### isALetter() / isAConsonant() / isAVowel()
+
+A few simple ones that return true or false if a single string character is a letter, consonant, or vowel. For example:
 
 `isALetter("a") => true`
-
-### isAConsonant()
-
-Uses isALetter and checks to see whether that letter is a consonant. For example:
 
 `isAConsonant("a") => false`
 
 `isAConsonant("b") => true`
 
-### isAVowel()
+`isAVowel("a") => true`
 
-Uses isALetter and checks to see whether that letter is a vowel. For example:
-
-`isAConsonant("a") => true`
-
-`isAConsonant("b") => false`
+`isAVowel("b") => false`
 
 ### numWord()
 
@@ -44,11 +50,13 @@ Similar to numWord(), nthNumWord() takes in a positive integer and spits out the
 
 ### random()
 
-Takes in an array or an object and returns a random element from it. For example:
+Takes in an array, an object or string and returns a random element from it. For example:
 
 `random([1, 2, 3, 4, 5]) => 2`
 
 `random([1: "a", 2: "b", 3: "c", 4: "d", 5: "e"]) => {3: "c"}`
+
+`random("panda") => "n"`
 
 Many of these functions have been built to render error messages on the console if an incorrect argument gets passed in, however they won't throw errors themselves.
 
@@ -70,4 +78,4 @@ You can also import the entire toolbox for use:
 
 ### Version
 
-1.0.11
+1.0.12
