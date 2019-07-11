@@ -1,8 +1,30 @@
-export { capitalizeWords } from "./capitalizeWords";
-export { compareAlphabetical, sortAlphabetical } from "./compareAlphabetical";
-export { isAConsonant } from "./isAConsonant";
-export { isALetter } from "./isALetter";
-export { isAVowel } from "./isAVowel";
-export { nthNumWord } from "./nthNumWord";
-export { numWord } from "./numWord";
-export { random } from "./random";
+import { capitalizeWords } from "./capitalizeWords";
+import { compareAlphabetical, sortAlphabetical } from "./compareAlphabetical";
+import { isAConsonant } from "./isAConsonant";
+import { isALetter } from "./isALetter";
+import { isAVowel } from "./isAVowel";
+import { nthNumWord } from "./nthNumWord";
+import { numWord } from "./numWord";
+import { random } from "./random";
+
+exports.capitalizeWords = capitalizeWords;
+exports.compareAlphabetical = compareAlphabetical;
+exports.sortAlphabetical = sortAlphabetical;
+exports.isAConsonant = isAConsonant;
+exports.isALetter = isALetter;
+exports.isAVowel = isAVowel;
+exports.nthNumWord = nthNumWord;
+exports.numWord = numWord;
+exports.random = random;
+
+// export default exports;
+// export {
+//   capitalizeWords,
+//   compareAlphabetical,
+//   isAVowel,
+//   isAConsonant,
+//   isALetter,
+//   nthNumWord,
+//   numWord,
+//   random
+// };
