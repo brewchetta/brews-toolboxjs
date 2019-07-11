@@ -7,6 +7,19 @@ import { nthNumWord } from "./nthNumWord";
 import { numWord } from "./numWord";
 import { random } from "./random";
 
+export {
+  capitalizeWords,
+  compareAlphabetical,
+  isAVowel,
+  isAConsonant,
+  isALetter,
+  nthNumWord,
+  numWord,
+  random
+};
+
+let exports = {};
+
 exports.capitalizeWords = capitalizeWords;
 exports.compareAlphabetical = compareAlphabetical;
 exports.sortAlphabetical = sortAlphabetical;
@@ -18,13 +31,3 @@ exports.numWord = numWord;
 exports.random = random;
 
 export default exports;
-export {
-  capitalizeWords,
-  compareAlphabetical,
-  isAVowel,
-  isAConsonant,
-  isALetter,
-  nthNumWord,
-  numWord,
-  random
-};
