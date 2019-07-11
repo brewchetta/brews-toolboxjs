@@ -18,3 +18,5 @@ exports.isAVowel = isAVowel;
 exports.nthNumWord = nthNumWord;
 exports.numWord = numWord;
 exports.random = random;
+
+export default exports;
