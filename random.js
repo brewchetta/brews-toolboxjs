@@ -1,4 +1,4 @@
-export function random(list) {
+export default function random(list) {
   if (Array.isArray(list)) {
     return list[Math.floor(Math.random() * list.length)];
   }

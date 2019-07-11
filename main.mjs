@@ -1,11 +1,12 @@
-import { capitalizeWords } from "./capitalizeWords";
-import { compareAlphabetical, sortAlphabetical } from "./compareAlphabetical";
-import { isAConsonant } from "./isAConsonant";
-import { isALetter } from "./isALetter";
-import { isAVowel } from "./isAVowel";
-import { nthNumWord } from "./nthNumWord";
-import { numWord } from "./numWord";
-import { random } from "./random";
+import capitalizeWords from "./capitalizeWords";
+import compareAlphabetical from "./compareAlphabetical";
+import sortAlphabetical from "./sortAlphabetical";
+import isAConsonant from "./isAConsonant";
+import isALetter from "./isALetter";
+import isAVowel from "./isAVowel";
+import nthNumWord from "./nthNumWord";
+import numWord from "./numWord";
+import random from "./random";
 
 export {
   capitalizeWords,

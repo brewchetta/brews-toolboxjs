@@ -1,18 +1,19 @@
-export function numWord(n) {
-
-  if (typeof n !== 'number') {
-    console.error("TypeError: Remember to parse to numbers before using this function")
-    return undefined
+export default function numWord(n) {
+  if (typeof n !== "number") {
+    console.error(
+      "TypeError: Remember to parse to numbers before using this function"
+    );
+    return undefined;
   }
 
   if (n % 1 !== 0) {
-    console.error("NumError: Could not parse because number wasn't an integer")
-    return undefined
+    console.error("NumError: Could not parse because number wasn't an integer");
+    return undefined;
   }
 
   if (n < 1) {
-    console.error("NumError: Value must be positive and can't be zero")
-    return undefined
+    console.error("NumError: Value must be positive and can't be zero");
+    return undefined;
   }
 
   singles = {
@@ -23,8 +24,8 @@ export function numWord(n) {
     5: "five",
     6: "six",
     7: "seven",
-    8 : "eight",
-    9 : "nine",
+    8: "eight",
+    9: "nine",
     10: "ten",
     11: "eleven",
     12: "twelve",
@@ -34,11 +35,11 @@ export function numWord(n) {
     16: "sixteen",
     17: "seventeen",
     18: "eighteen",
-    19: "nineteen",
-    }
+    19: "nineteen"
+  };
 
   if (20 > n && n > 0) {
-    return singles[n]
+    return singles[n];
   }
 
   tens = {
@@ -49,15 +50,16 @@ export function numWord(n) {
     60: "sixty",
     70: "seventy",
     80: "eighty",
-    90: "ninety",
-  }
+    90: "ninety"
+  };
 
   if (100 > n && n > 19 && n % 10 === 0) {
-    return tens[n]
+    return tens[n];
   }
 
   if (100 > n && n > 19 && n % 10 !== 0) {
-    return `${tens[parseInt(n.toString()[0] + "0")]}-${singles[parseInt(n.toString()[1])]}`
+    return `${tens[parseInt(n.toString()[0] + "0")]}-${
+      singles[parseInt(n.toString()[1])]
+    }`;
   }
-
 }

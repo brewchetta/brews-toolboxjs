@@ -1,6 +1,6 @@
 import { compareAlphabetical } from "./compareAlphabetical";
 
-export function sortAlphabetical(array) {
+export default function sortAlphabetical(array) {
   [...array].sort(compareAlphabetical);
   return array;
 }
