@@ -17,14 +17,14 @@ exports.nthNumWord = nthNumWord;
 exports.numWord = numWord;
 exports.random = random;
 
-// export default exports;
-// export {
-//   capitalizeWords,
-//   compareAlphabetical,
-//   isAVowel,
-//   isAConsonant,
-//   isALetter,
-//   nthNumWord,
-//   numWord,
-//   random
-// };
+export default exports;
+export {
+  capitalizeWords,
+  compareAlphabetical,
+  isAVowel,
+  isAConsonant,
+  isALetter,
+  nthNumWord,
+  numWord,
+  random
+};
