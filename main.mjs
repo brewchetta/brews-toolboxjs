@@ -7,6 +7,7 @@ import isAVowel from "./isAVowel";
 import nthNumWord from "./nthNumWord";
 import numWord from "./numWord";
 import random from "./random";
+import stringToColor from "./stringToColor";
 
 export {
   capitalizeWords,
@@ -16,7 +17,8 @@ export {
   isALetter,
   nthNumWord,
   numWord,
-  random
+  random,
+  stringToColor
 };
 
 let exports = {};
@@ -30,5 +32,6 @@ exports.isAVowel = isAVowel;
 exports.nthNumWord = nthNumWord;
 exports.numWord = numWord;
 exports.random = random;
+exports.stringToColor = stringToColor;
 
 export default exports;
