@@ -1,4 +1,4 @@
-import { numWord } from "./numWord";
+import numWord from "./numWord";
 
 export default function nthNumWord(n) {
   if (typeof n !== "number") {
