@@ -54,7 +54,7 @@ Takes in an array, an object or string and returns a random element from it. For
 
 `random([1, 2, 3, 4, 5]) => 2`
 
-`random([1: "a", 2: "b", 3: "c", 4: "d", 5: "e"]) => {3: "c"}`
+`random({1: "a", 2: "b", 3: "c", 4: "d", 5: "e"}) => {3: "c"}`
 
 `random("panda") => "n"`
 
