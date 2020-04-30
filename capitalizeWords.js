@@ -7,6 +7,6 @@ export default function capitalizeWords(string) {
       .map(word => capitalizeWords(word))
       .join(" ");
   } else {
-    return [...string[0].toUpperCase(), string.slice(1)].join("");
+    return string[0].toUpperCase() + string.slice(1);
   }
 }
