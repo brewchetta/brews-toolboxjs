@@ -1,6 +1,6 @@
 {
   "name": "brews-toolboxjs",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Tools for your js",
   "main": "main.mjs",
   "scripts": {

@@ -8,7 +8,7 @@ Takes in a word or words and returns them capitalized. For example:
 
 `capitalizeWords("good morning") => Good Morning`
 
-###compareAlphabetical() / sortAlphabetical()
+### compareAlphabetical() / sortAlphabetical()
 
 The compare function takes in two values and attempts to sort them alphabetically.
 
@@ -60,6 +60,12 @@ Takes in an array, an object or string and returns a random element from it. For
 
 Many of these functions have been built to render error messages on the console if an incorrect argument gets passed in, however they won't throw errors themselves.
 
+### stringToColor()
+
+Takes in an argument of a string and converts that string to a hexadecimal color code. For example:
+
+`stringToColor('I am a string') => "#cd14fb"`
+
 ## npm
 
 I've added this as an npm package just for the fun of it. It can be added to a project by running:
@@ -78,4 +84,4 @@ You can also import the entire toolbox for use:
 
 ### Version
 
-1.0.17
+1.0.18
