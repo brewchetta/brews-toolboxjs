@@ -72,6 +72,12 @@ Takes an argument of an integer and converts that integer into a string of binar
 
 `toBinary(5) => "101"`
 
+### fromBinary()
+
+Takes an argument of a string representing binary and converts that to an integer. For example:
+
+`fromBinary("101") => 5`
+
 ## npm
 
 I've added this as an npm package just for the fun of it. It can be added to a project by running:
