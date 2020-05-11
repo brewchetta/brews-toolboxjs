@@ -8,6 +8,7 @@ import nthNumWord from "./nthNumWord";
 import numWord from "./numWord";
 import random from "./random";
 import stringToColor from "./stringToColor";
+import toBinary from "./toBinary";
 
 export {
   capitalizeWords,
@@ -18,7 +19,8 @@ export {
   nthNumWord,
   numWord,
   random,
-  stringToColor
+  stringToColor,
+  toBinary
 };
 
 let exports = {};
@@ -33,5 +35,6 @@ exports.nthNumWord = nthNumWord;
 exports.numWord = numWord;
 exports.random = random;
 exports.stringToColor = stringToColor;
+exports.toBinary = toBinary
 
 export default exports;

@@ -66,6 +66,12 @@ Takes in an argument of a string and converts that string to a hexadecimal color
 
 `stringToColor('I am a string') => "#cd14fb"`
 
+### toBinary()
+
+Takes an argument of an integer and converts that integer into a string of binary. For example:
+
+`toBinary(5) => "101"`
+
 ## npm
 
 I've added this as an npm package just for the fun of it. It can be added to a project by running:
